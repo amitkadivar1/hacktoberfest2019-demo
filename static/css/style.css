@@ -1,21 +1,21 @@
 body {
     background-color: #152347;
     color:#fff;
-    font-family: Space Mono,monospace; 
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; 
    }
-   .header{
+.header{
      margin-top:5% ;
-   text-align: center;
+     text-align: center;
    
    }
-   a{
+ a {
      color: #faf921;
      text-decoration-line: none;
      
    }
-   .content{
+ .content {
      font-size: 20px;
      margin-left: 5%;
      margin-top:5%;
-         line-height: 60px
+     line-height: 60px
    }
