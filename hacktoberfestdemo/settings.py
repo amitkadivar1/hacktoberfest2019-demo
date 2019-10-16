@@ -120,7 +120,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 # if DEBUG != True:
-    STATIC_ROOT = 'static'
+STATIC_ROOT = 'static'
 # else:
 #     STATICFILES_DIRS = (
 #             os.path.join(BASE_DIR, 'static'),
