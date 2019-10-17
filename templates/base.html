@@ -5,14 +5,21 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Hello Django</title>
+    <title>Hack Day</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 
 <body>
-    {% block content %}{% endblock content %}
+    {% block content %}
+    {% endblock content %}
+    {% block footer %}
+    <div class="footer">
+        <p>&copy; Created By <a href="http://github.com/amitkadivar1">Amit Kadivar & Team </a> </p>
+    </div>
+    {% endblock footer %}
+
 </body>
 
 </html>

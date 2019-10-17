@@ -8,3 +8,5 @@
 - After Successfuly login redirect to dashboard of heroku 
 - Then click on **new** and you show you page which is have two input box. enter **app-name** and **choose region** .
 - Then in cmd in type ``` heroku config:set DISABLE_COLLECTSTATIC=1 ``` or if give you error **Error: Missing required flag** then you type like this ``` heroku config:set DISABLE_COLLECTSTATIC=1 --app wmthacktoberfest2019 ```
+
+- My Current Website look like this click [here](https://wmthacktoberfest2019.herokuapp.com/) to view
